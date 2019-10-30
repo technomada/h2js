@@ -1,0 +1,29 @@
+{
+  "name": "h2js",
+  "version": "1.0.0",
+  "description": "A vanilla JavaScript centric web application platform, toolkit, component library framework.",
+  "main": "main.js",
+  "bin": {
+    "h2js": "bin/main.js"
+  },
+  "files": [
+    "bin",
+    "templates"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "fs-extra": "^8.1.0",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "type":"git",
+  "url":"https://github.com/technomada/h2js",
+  "devDependencies": {
+    "npm-programmatic": "0.0.12"
+  }
+}

@@ -1,0 +1,32 @@
+#
+# this is the master lib to install when staring a project....
+#
+
+$ npm init
+$ npm i -D h2js
+
+$ npx h2js init
+$ npx h2js build
+
+$ python -m http.server --directory app/dist
+
+------------------------------------------------
+upg: $ npx h2js start
+	- web server
+	- for now install your own http-server.
+
+upg: support for webserver/viewr
+
+upg; support for rsync project to site.
+
+upg: how to compile assest like css/images/media
+
+upg: plugin/tool to generate automatic objects from folder tree structure.
+
+upg: $ npx h2js add bob  <--- add a new...
+	[bob]
+		- class.js
+		- index.html
+		- style.css
+	(or)
+		bob-class.js (setup with bob and blank)
