@@ -1,6 +1,6 @@
 {
   "name": "h2js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A vanilla JavaScript centric web application platform, toolkit, component library framework.",
   "main": "main.js",
   "bin": {
@@ -23,8 +23,11 @@
     "webpack": "^4.36.1",
     "webpack-cli": "^3.3.6"
   },
+  
+  "repository":{
   "type":"git",
-  "url":"https://github.com/technomada/h2js",
+  "url":"https://github.com/technomada/h2js"
+  },
   "devDependencies": {
     "npm-programmatic": "0.0.12"
   }
