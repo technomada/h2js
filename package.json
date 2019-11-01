@@ -1,6 +1,6 @@
 {
   "name": "h2js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A vanilla JavaScript centric web application platform, toolkit, component library framework.",
   "main": "main.js",
   "bin": {
@@ -11,7 +11,9 @@
     "templates"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init":"main.js init",
+    "build":"main.js build"
   },
   "author": "Adam",
   "license": "MIT",

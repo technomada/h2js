@@ -30,3 +30,8 @@ upg: $ npx h2js add bob  <--- add a new...
 		- style.css
 	(or)
 		bob-class.js (setup with bob and blank)
+
+
+--------------
+
+upg: h2js --> simple setup copy and install to setup dev env.

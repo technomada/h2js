@@ -43,7 +43,8 @@ program
 	.action(function(env,opts){
 		console.log("BUILD!")
 
-		const base = path.resolve('.')+'/app'
+		//const base = path.resolve('.')+'/app'
+		const base = path.resolve('.')
 		const src = base+'/src'
 		const dist = base+'/dist'
 		const compiler = webpack({
