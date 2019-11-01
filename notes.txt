@@ -35,3 +35,5 @@ upg: $ npx h2js add bob  <--- add a new...
 --------------
 
 upg: h2js --> simple setup copy and install to setup dev env.
+
+upg: note project from other elements.
