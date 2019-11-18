@@ -33,7 +33,7 @@ http://localhost:8000
 
 
 ### DESIGN
-- VanillaJS / Browser as a platform centric
+- VanillaJS / Browser as a platform
 - Simple thin framework
 - Webpack compiled (use npm libraries)
 
