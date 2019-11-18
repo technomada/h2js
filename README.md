@@ -11,7 +11,7 @@ H2JS is a coder centric web application framework.  H2JS attempts to limit itsel
 
 #### Create Project Scaffolding
 ```sh
-$ npx h2js-init   ... note this step may take a litte time.
+$ npx h2js-init   ... note: depending on your network speed this step may take a little time.
 ```
 
 
