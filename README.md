@@ -1,5 +1,5 @@
 # h2js
-H2JS is a coder centric web application framework.  H2JS attempts to limit itself to vanilla javascript and standard browser features.  If you enjoy writing in code and prefer standard browser feature basics over the latest framework h2js may be for you. 
+H2JS is a coder centric web application framework.  H2JS attempts to limit itself to vanilla javascript and standard browser features.  If you enjoy writing in code and prefer standard browser features over the latest framework h2js may be for you. 
 
 ### SEE
 [h2js-init](https://github.com/technomada/h2js-init) -- Creates scaffolding
