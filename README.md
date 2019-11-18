@@ -38,19 +38,19 @@ http://localhost:8000
 - Webpack compiled (use npm libraries)
 
 
-### STRUCTURE
+### STRUCTURE (and interesting files)
 ![File Structure 1](media/files-set-1.png)
 
-src = edit project files
+**src** = edit project files
 
-dist = project compiles here (copy these files to your production server to go live)
+**dist** = project compiles here (copy these files to your production server to go live)
 
 #### Project File Structure
 ![File Structure 2](media/files-set-2.png)
 
-index.html - doc setup
+**index.html** - doc setup
 
-app.js - your application specific code
+**app.js** - your application specific code
 
 ( sub directories and files optional for organization )
 
