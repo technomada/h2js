@@ -37,6 +37,24 @@ http://localhost:8000
 - Simple thin framework
 - Webpack compiled (use npm libraries)
 
+
+### STRUCTURE
+![File Structure 1](media/files-set-1.png)
+
+src = edit project files
+
+dist = project compiles here (copy these files to your production server to go live)
+
+#### Project File Structure
+![File Structure 2](media/files-set-2.png)
+
+index.html - doc setup
+
+app.js - your application specific code
+
+( sub directories and files optional for organization )
+
+
 ### EXAMPLE
 ```sh
 $ npm i -S h2js-element
@@ -91,18 +109,4 @@ class ClockElement extends ElementClass{
 
 export default ClockElement
 ```
-### STRUCTURE
-![File Structure 1](media/files-set-1.png)
 
-src = edit project files
-
-dist = project compiles here (copy these files to your production server to go live)
-
-#### Project File Structure
-![File Structure 2](media/files-set-2.png)
-
-index.html - doc setup
-
-app.js - your application specific code
-
-( sub directories and files optional for organization )
