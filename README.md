@@ -2,9 +2,9 @@
 H2JS is a coder centric web application framework.  H2JS attempts to limit itself to vanilla javascript and standard browser features.  If you enjoy writing in code and prefer browser metal basics over the latest framework h2js may be for you. 
 
 ### SEE
-[h2js-init](https://github.com/technomada/h2js-init) -- Creates Scaffolding
+[h2js-init](https://github.com/technomada/h2js-init) -- Creates scaffolding
 
-[h2js-element](https://github.com/technomada/h2js-element) -- Simple Custom Element Wrapper Class
+[h2js-element](https://github.com/technomada/h2js-element) -- Simple custom element wrapper class
 
 
 ### TRY IT
@@ -77,3 +77,18 @@ class ClockElement extends ElementClass{
 
 export default ClockElement
 ```
+### STRUCTURE
+![File Structure 1](media/files-set-1.png)
+
+src = edit project files
+
+dist = project compiles here (copy these files to your production server to go live)
+
+#### Project File Structure
+![File Structure 2](media/files-set-2.png)
+
+index.html - doc setup
+
+app.js - your application specific code
+
+( sub directories and files optional for organization )
