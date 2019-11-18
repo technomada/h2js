@@ -39,13 +39,15 @@ http://localhost:8000
 
 
 ### STRUCTURE (and interesting files)
+
+#### Project File Structure
 ![File Structure 1](media/files-set-1.png)
 
 **src** = edit project files
 
 **dist** = project compiles here (copy these files to your production server to go live)
 
-#### Project File Structure
+#### Application Structure
 ![File Structure 2](media/files-set-2.png)
 
 **index.html** - doc setup
