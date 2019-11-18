@@ -43,7 +43,7 @@ http://localhost:8000
 #### Project File Structure
 ![File Structure 1](media/files-set-1.png)
 
-**src** = edit project files
+**src** = application source files
 
 **dist** = project compiles here (copy these files to your production server to go live)
 
