@@ -42,14 +42,28 @@ http://localhost:8000
 $ npm i -S h2js-element
 ```
 
-index.html
-```html
-<script type='module'>
-	import Clock from './clock-element.js'
-	
-	let i = new Clock('green')
-	document.querySelector('body').appendChild(i.element)
-</script>
+app.js
+```js
+
+import ElementClass from 'h2js-element'
+import Clock from './clock-element.js'
+
+class App extends ElementClass {
+	constructor(){
+		let name = 'app'
+		let C = `
+			<style>
+			</style>
+			`
+
+		super(name,C)
+		
+		let i = new Clock('green')
+		this.shadow.appendChild(i.element)	
+		}
+	}
+
+export default App
 ```
 &nbsp;
 
