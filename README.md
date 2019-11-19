@@ -62,7 +62,7 @@ http://localhost:8000
 $ npm i -S h2js-element
 ```
 
-app.js
+**app.js**
 ```js
 
 import ElementClass from 'h2js-element'
@@ -89,7 +89,7 @@ export default App
 
 
 
-clock-element.js
+**clock-element.js**
 ```js
 import ElementClass from 'h2js-element'
 
